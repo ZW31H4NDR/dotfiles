@@ -1,0 +1,169 @@
+
+* {
+    font-family: "CodeNewRoman Nerd Font Propo";
+}
+window#waybar{
+    all:unset;
+}
+.modules-left {
+    font-size:15px;
+    padding:7px;
+    margin:10 0 5 10;
+    border-radius:10px;
+    background: alpha(@background,.6);
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .9);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+}
+.modules-center {
+    font-size:19px;
+    padding:7px;
+    margin:10 0 5 0;
+    border-radius:10px;
+    background: alpha(@background,.6);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .9);
+}
+.modules-right {
+    font-size:15px;
+    padding:7px;
+    margin: 10 10 5 0;
+    border-radius:10px;
+    background: alpha(@background,.6);
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .9); 
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+}
+tooltip {
+    background: #000000;
+    color: #7ae6fb;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .9);
+}
+#clock:hover, #custom-pacman:hover, #custom-notification:hover,#bluetooth:hover,#network:hover,#battery:hover, #cpu:hover,#memory:hover,#temperature:hover{
+    transition: all .3s ease;
+    color: #ffffff;
+}
+#custom-left {
+    padding: 0px 1px;
+    transition: all .3s ease;
+    color: #ffffff;
+}
+#custom-right {
+    padding: 0px 1px;
+    transition: all .3s ease;
+    color: #ffffff;
+}
+#clock{
+    padding: 0px 5px;
+    color: #7ae6fb;
+    transition: all .3s ease;
+}
+#custom-pacman{
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color: #7ae6fb;
+
+}
+#workspaces {
+    padding: 0px 5px;
+}
+#workspaces button {
+    all:unset;
+    padding: 0px 5px;
+    color: #ffffff;
+    transition: all .2s ease;
+}
+#workspaces button:hover {
+    color: #f8e602;
+    border: none;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .5);
+    transition: all 1s ease;
+}
+#workspaces button.active {
+    color: #7ae6fb;
+    border: none;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .5);
+}
+#bluetooth{
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color: #f8e602;
+
+}
+#network{
+    padding: 0px 3px;
+    transition: all .3s ease;
+    color: #ffffff;
+
+}
+#battery{
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color: #7ae8fb;
+
+
+}
+#battery.charging {
+    color: #f8e602;
+}
+
+#battery.warning:not(.charging) {
+    color: #7ae9fb;
+}
+
+#battery.critical:not(.charging) {
+    color: #f53c3c;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#group-expand{
+    padding: 0px 5px;
+    transition: all .3s ease; 
+}
+#custom-expand{
+    padding: 0px 5px;
+    color: transparent;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .0); 
+    transition: all 0.4s ease; 
+}
+#custom-expand:hover{
+    color: #ffffff;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, .5);
+}
+#custom-colorpicker{
+    padding: 0px 5px;
+}
+#cpu{
+    padding: 0px 5px;
+    transition: all .3s ease; 
+    color: #7ae6fb;
+}
+#temperature{
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color: #7ae6fb;
+}
+#memory{
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color: #f8e602;
+}
+#custom-endpoint{
+    color:transparent;
+
+}
+#tray{
+    padding: 0px 5px;
+    transition: all .3s ease; 
+
+}
+#tray menu * {
+    padding: 0px 5px;
+    transition: all .3s ease; 
+}
+
+#tray menu separator {
+    padding: 0px 5px;
+    transition: all .3s ease; 
+}
