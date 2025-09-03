@@ -1,5 +1,5 @@
 # dotfiles
 my hyprland/arch dots
 
-suprisingly enough they work.
+just download the install.sh file to install
 
