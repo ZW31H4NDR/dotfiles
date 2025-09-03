@@ -1,8 +1,5 @@
 # dotfiles
-my hyprland/arch dotfiles
+my hyprland/arch dots
 
-cyberpunk edgerunners themed
+suprisingly enough they work.
 
-enter if you dare
-
-90% sure this shit doesnt work but gl
