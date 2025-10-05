@@ -1,4 +1,1 @@
-# dotfiles
-my hyprland/arch dots (regularly updated)
-
-just download the install.sh file to install (use on a system without hyprland)
+old asf, use them if you want i suppose, edgerunners themed, idk if anything will break.
